@@ -1,32 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <aside class="navbar">
+      <div class="logo">
+        <router-link to="/"><img src="" alt="logo"></router-link>
+      </div>
+      <nav class="nav-holder">
+        <div class="menu-btn"></div>
+        <div class="nav">
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/work">Work</router-link>
+          <router-link to="/process">Process</router-link>
+          <router-link to="/contact">Contact</router-link>
+        </div>
+      </nav>
+      <div class="nav-hint">Scroll to explore</div>
+    </aside>
+    <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
