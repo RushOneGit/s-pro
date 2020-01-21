@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.ttf?nt81nz") format("truetype"), url("../fonts/icomoon.woff?nt81nz") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-filter:before {
+  content: "\e90e";
+}
+.icon-arrow-up:before {
+  content: "\e90d";
+}
+.icon-angle-right:before {
+  content: "\e90c";
+}
+.icon-expand-arrows:before {
+  content: "\e90b";
+}
+.icon-line:before {
+  content: "\e903";
+}
+.icon-link:before {
+  content: "\e90a";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-roadmap:before {
+  content: "\e904";
+}
+.icon-wiki:before {
+  content: "\e905";
+}
+.icon-up:before {
+  content: "\e906";
+}
+.icon-expand:before {
+  content: "\e907";
+}
+.icon-grid:before {
+  content: "\e909";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}

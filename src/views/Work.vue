@@ -1,7 +1,6 @@
 <template>
-  <div class="work">
+  <div class="page">
     <HeroBanner :slide="2" />
-    <h1>work</h1>
   </div>
 </template>
 

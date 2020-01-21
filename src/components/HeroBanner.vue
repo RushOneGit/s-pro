@@ -2,12 +2,21 @@
   <div class="hero-banner">
     <hooper :transition="1000" :initialSlide="slide" @afterSlide="updateSlider">
       <slide>
-        <h2>asds asd asdsd sad </h2>
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, ad!</h2>
       </slide>
-      <slide>slide 2</slide>
-      <slide>slide 3</slide>
-      <slide>slide 4</slide>
-      <slide>slide 5</slide>
+      <slide>
+        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <button>down</button>
+      </slide>
+      <slide>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, officiis necessitatibus?</h2>
+      </slide>
+      <slide>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing officiis necessitatibus?</h2>
+      </slide>
+      <slide>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus</h2>
+      </slide>
     </hooper>
   </div>
 </template>
@@ -45,3 +54,13 @@ export default {
   }
 };
 </script>
+
+<style lang='scss' scoped>
+  .hooper-slide {
+    height: 100vh;
+  }
+
+  .hooper {
+    height: auto;
+  }
+</style>
