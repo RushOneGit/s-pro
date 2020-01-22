@@ -8,8 +8,6 @@
 </template>
 
 <script>
-// import { TweenMax, TimelineMax } from 'gsap'
-// import 'ScrollToPlugin'
 export default {
   name: "about",
 
