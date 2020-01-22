@@ -1,4 +1,4 @@
-# sisu
+# s-pro
 
 ## Project setup
 ```
