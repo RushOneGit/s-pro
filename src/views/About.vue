@@ -10,6 +10,7 @@
 <script>
 export default {
   name: "about",
+
   mounted () {
     this.$scrollmagic.scene({
       triggerElement: '#app',
