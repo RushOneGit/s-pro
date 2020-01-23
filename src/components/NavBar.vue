@@ -35,7 +35,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     min-width: 200px;
-    background: #888;
+    // background: #888;
   }
 
   .menu-nav {
