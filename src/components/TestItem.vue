@@ -1,20 +1,21 @@
 <template>
   <div class="wrap">
-    <p>
-      {{ color }}
-      {{ width }}
-    </p>
-
-    <input type="text" @input="$emit('update:width', $event.target.value)">
-    <input type="text" @input="$emit('update:color', $event.target.value)">
+    <a :href="link">Link to ...</a>
+    <header>header component</header>
+    <slot>Default slot value</slot>
+    <footer>footer component</footer>
   </div>
 </template>
 <script>
 export default {
   name: 'TestItem',
+  data() {
+    return {
+      name: 'John'
+    }
+  },
   props: {
-    color: String,
-    width: String,
+    link: String
   },
   methods: {
   }
